@@ -90,7 +90,7 @@ gcloud compute networks subnets describe $SUBNET_NAME --region=$REGION --format=
 echo "\n=== Eliminando recursos de laboratorio... ==="
 gcloud compute networks delete $VPC_NAME --quiet
 # si molesta al borrar por la subnet expandida
-#gcloud compute networks subnets delete subnet-to-expand --network $VPC_NAME
+#gcloud compute networks subnets delete subnet-to-expand   --network $VPC_NAME
 echo "✅ Laboratorio completado y recursos eliminados."
 ```
 
