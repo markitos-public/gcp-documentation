@@ -16,49 +16,49 @@ Este repositorio contiene una ruta de aprendizaje personal y una colección de n
         *   [001: Regiones y Zonas](./01-gcp-fundamentals/02-core-infrastructure/01-global-infrastructure/001-regions-and-zones.md)
     *   **Jerarquía de Recursos**
         *   [001: Visión General de la Jerarquía de Recursos](./01-gcp-fundamentals/02-core-infrastructure/02-resource-hierarchy/001-resource-hierarchy-overview.md)
-    *   **IAM (Identity and Access Management)**
-        *   [001: Visión General de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/001-iam-overview.md)
-        *   [002: Roles de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/002-iam-roles.md)
-        *   [003: Cuentas de Servicio de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/003-iam-service-accounts.md)
-        *   [004: Roles Personalizados de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/004-iam-custom-roles.md)
-        *   [005: Condiciones de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/005-iam-conditions.md)
-        *   [006: Políticas de Denegación de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/006-iam-deny-policies.md)
-        *   [007: Mejores Prácticas de IAM](./01-gcp-fundamentals/02-core-infrastructure/03-iam/007-iam-best-practices.md)
-        *   [008: Políticas de Organización (Organization Policies)](./01-gcp-fundamentals/02-core-infrastructure/03-iam/008-organization-policies.md)
-    *   **Redes VPC**
-        *   [001: Visión General de VPC](./01-gcp-fundamentals/02-core-infrastructure/04-vpc-networking/001-vpc-overview.md)
-        *   [002: Subredes y Rangos de IP](./01-gcp-fundamentals/02-core-infrastructure/04-vpc-networking/002-subnets-and-ip-ranges.md)
-        *   [003: Reglas de Firewall](./01-gcp-fundamentals/02-core-infrastructure/04-vpc-networking/003-firewall-rules.md)
-        *   [004: Peering de VPC y VPC Compartida](./01-gcp-fundamentals/02-core-infrastructure/04-vpc-networking/004-vpc-peering-and-shared-vpc.md)
+*   **IAM (Identity and Access Management)**
+    *   [001: Visión General de IAM](./01-gcp-fundamentals/03-iam/001-iam-overview.md)
+    *   [002: Roles de IAM](./01-gcp-fundamentals/03-iam/002-iam-roles.md)
+    *   [003: Cuentas de Servicio de IAM](./01-gcp-fundamentals/03-iam/003-iam-service-accounts.md)
+    *   [004: Roles Personalizados de IAM](./01-gcp-fundamentals/03-iam/004-iam-custom-roles.md)
+    *   [005: Condiciones de IAM](./01-gcp-fundamentals/03-iam/005-iam-conditions.md)
+    *   [006: Políticas de Denegación de IAM](./01-gcp-fundamentals/03-iam/006-iam-deny-policies.md)
+    *   [007: Mejores Prácticas de IAM](./01-gcp-fundamentals/03-iam/007-iam-best-practices.md)
+    *   [008: Políticas de Organización (Organization Policies)](./01-gcp-fundamentals/03-iam/008-organization-policies.md)
+*   **Redes VPC**
+    *   [001: Visión General de VPC](./01-gcp-fundamentals/04-vpc-networking/001-vpc-overview.md)
+    *   [002: Subredes y Rangos de IP](./01-gcp-fundamentals/04-vpc-networking/002-subnets-and-ip-ranges.md)
+    *   [003: Reglas de Firewall](./01-gcp-fundamentals/04-vpc-networking/003-firewall-rules.md)
+    *   [004: Peering de VPC y VPC Compartida](./01-gcp-fundamentals/04-vpc-networking/004-vpc-peering-and-shared-vpc.md)
 *   **Facturación y Gestión de Costos**
     *   [001: Visión General de Facturación y Costos](./01-gcp-fundamentals/05-billing-and-cost-management/001-billing-and-cost-management-overview.md)
 
-### Módulo 2: Cultura y Principios SRE (SRE Culture and Principles)
-
-*   **Conceptos SRE**
-    *   [001: SLO, SLI, SLA](./02-sre-culture-and-principles/01-sre-concepts/001-slo-sli-sla.md)
-    *   [002: Toil y Presupuestos de Error](./02-sre-culture-and-principles/01-sre-concepts/002-toil-and-error-budgets.md)
-*   **Prácticas SRE**
-    *   [001: Monitorización y Alertas](./02-sre-culture-and-principles/02-sre-practices/001-monitoring-and-alerting.md)
-    *   [002: Gestión de Incidentes y Post-mortems](./02-sre-culture-and-principles/02-sre-practices/002-incident-management-and-postmortems.md)
-
-### Módulo 3: Desarrollo Nativo en la Nube (Cloud-Native Development)
+### Módulo 2: Desarrollo Nativo en la Nube (Cloud-Native Development)
 
 *   **Plataformas de Cómputo**
-    *   [001: Visión General de Plataformas de Cómputo](./03-cloud-native-development/01-compute-platforms/001-compute-platforms-overview.md)
-    *   [002: Compute Engine](./03-cloud-native-development/01-compute-platforms/002-compute-engine.md)
-    *   [003: Google Kubernetes Engine (GKE)](./03-cloud-native-development/01-compute-platforms/003-gke.md)
-    *   [004: Cloud Run](./03-cloud-native-development/01-compute-platforms/004-cloud-run.md)
-    *   [005: Cloud Functions](./03-cloud-native-development/01-compute-platforms/005-cloud-functions.md)
-    *   [006: App Engine](./03-cloud-native-development/01-compute-platforms/006-app-engine.md)
+    *   [001: Visión General de Plataformas de Cómputo](./02-cloud-native-development/01-compute-platforms/001-compute-platforms-overview.md)
+    *   [002: Compute Engine](./02-cloud-native-development/01-compute-platforms/002-compute-engine.md)
+    *   [003: Google Kubernetes Engine (GKE)](./02-cloud-native-development/01-compute-platforms/003-gke.md)
+    *   [004: Cloud Run](./02-cloud-native-development/01-compute-platforms/004-cloud-run.md)
+    *   [005: Cloud Functions](./02-cloud-native-development/01-compute-platforms/005-cloud-functions.md)
+    *   [006: App Engine](./02-cloud-native-development/01-compute-platforms/006-app-engine.md)
 *   **Herramientas de Desarrollo**
-    *   [001: Cloud Code](./03-cloud-native-development/02-development-tools/001-cloud-code.md)
-    *   [002: Cloud Source Repositories](./03-cloud-native-development/02-development-tools/002-cloud-source-repositories.md)
-    *   [003: Cloud Shell](./03-cloud-native-development/02-development-tools/003-cloud-shell.md)
+    *   [001: Cloud Code](./02-cloud-native-development/02-development-tools/001-cloud-code.md)
+    *   [002: Cloud Source Repositories](./02-cloud-native-development/02-development-tools/002-cloud-source-repositories.md)
+    *   [003: Cloud Shell](./02-cloud-native-development/02-development-tools/003-cloud-shell.md)
 *   **Contenerización**
-    *   [001: Visión General de Contenedores](./03-cloud-native-development/03-containerization/001-containers-overview.md)
-    *   [002: Google Kubernetes Engine (GKE)](./03-cloud-native-development/03-containerization/002-google-kubernetes-engine-gke.md)
-    *   [003: Artifact Registry](./03-cloud-native-development/03-containerization/003-artifact-registry.md)
+    *   [001: Visión General de Contenedores](./02-cloud-native-development/03-containerization/001-containers-overview.md)
+    *   [002: Google Kubernetes Engine (GKE)](./02-cloud-native-development/03-containerization/002-google-kubernetes-engine-gke.md)
+    *   [003: Artifact Registry](./02-cloud-native-development/03-containerization/003-artifact-registry.md)
+
+### Módulo 3: Cultura y Principios SRE (SRE Culture and Principles)
+
+*   **Conceptos SRE**
+    *   [001: SLO, SLI, SLA](./03-sre-culture-and-principles/01-sre-concepts/001-slo-sli-sla.md)
+    *   [002: Toil y Presupuestos de Error](./03-sre-culture-and-principles/01-sre-concepts/002-toil-and-error-budgets.md)
+*   **Prácticas SRE**
+    *   [001: Monitorización y Alertas](./03-sre-culture-and-principles/02-sre-practices/001-monitoring-and-alerting.md)
+    *   [002: Gestión de Incidentes y Post-mortems](./03-sre-culture-and-principles/02-sre-practices/002-incident-management-and-postmortems.md)
 
 ### Módulo 4: CI/CD y Automatización (CI/CD and Automation)
 
